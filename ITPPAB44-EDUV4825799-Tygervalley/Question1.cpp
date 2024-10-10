@@ -102,6 +102,7 @@ void static selection() {
 }
 
 //the main function. We split up the code to make this nicer to read
+
 int main() {
 	//First bullet point
 	string name, surname;
@@ -132,10 +133,11 @@ int main() {
 
 	else {
 		perror("File opening failed");
-		cout << "Therefore, there were issues opening a file.\n";
+		cout << "Therefore, there were issues opening a file.\n " << endl;
 	}
 	
 	
 
+	system("pause");
 	return 0;
 }
