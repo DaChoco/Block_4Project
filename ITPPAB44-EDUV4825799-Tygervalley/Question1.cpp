@@ -2,6 +2,8 @@
 #include <string>
 #include <fstream>
 
+using namespace std;
+
 //discounts
 const double DISCOUNT_RATE = 0.10; // 10% discount
 const double DISCOUNT_THRESHOLD = 100.00; // Discount applies if bill is over R100
@@ -20,7 +22,7 @@ const double burger_p = 40.00;
 bool itemvalid = false;
 int iItemNum = 0, sum = 0, picked = 0;
 
-using namespace std;
+
 
 void static drawMenu() {
 	//Second Bullet Point
@@ -90,15 +92,18 @@ void static selection() {
 	}
 		
 		//fifth and sixth
-		cout << "\nTotal Bill: " + to_string(sum) << endl;
+		cout << "\nTotal Bill: R" + to_string(sum) << endl;
 
 
 		if (sum > DISCOUNT_THRESHOLD) {
 			cout << "Discount will be applied" << endl;
 			sum = sum * (1 - DISCOUNT_RATE);
 		}
+		else {
+			cout << "Discount will not applied" << endl;
+		}
 
-		cout << "\nFinal Bill: " + to_string(sum) << endl;
+		cout << "\nFinal Bill: R" + to_string(sum) << endl;
 }
 
 //the main function. We split up the code to make this nicer to read
@@ -138,6 +143,6 @@ int main() {
 	
 	
 
-	system("pause");
+	
 	return 0;
 }
