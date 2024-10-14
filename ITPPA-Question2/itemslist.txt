@@ -1,5 +1,7 @@
-Maile Chokoe
-Red Apples(x1)		R5
+Joshua Van der Westuizen
+red apples(x54)		R270
+chicken breasts(x2)		R108
+red grapes(x2)		R58
 -------------------------------
 
-Total Bill: 5
+Total Bill: 414

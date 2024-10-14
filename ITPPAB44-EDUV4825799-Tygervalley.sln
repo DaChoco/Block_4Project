@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ITPPAB44-EDUV4825799-Tygerv
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ITPPA-Question2", "ITPPA-Question2\ITPPA-Question2.vcxproj", "{D6D0310E-F86F-4B9C-A10B-06BD4170A5E7}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ITPPA-Question3", "ITPPA-Question3\ITPPA-Question3.vcxproj", "{96E96497-B7DE-41B0-9BDF-EE57B3B4D297}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{D6D0310E-F86F-4B9C-A10B-06BD4170A5E7}.Release|x64.Build.0 = Release|x64
 		{D6D0310E-F86F-4B9C-A10B-06BD4170A5E7}.Release|x86.ActiveCfg = Release|Win32
 		{D6D0310E-F86F-4B9C-A10B-06BD4170A5E7}.Release|x86.Build.0 = Release|Win32
+		{96E96497-B7DE-41B0-9BDF-EE57B3B4D297}.Debug|x64.ActiveCfg = Debug|x64
+		{96E96497-B7DE-41B0-9BDF-EE57B3B4D297}.Debug|x64.Build.0 = Debug|x64
+		{96E96497-B7DE-41B0-9BDF-EE57B3B4D297}.Debug|x86.ActiveCfg = Debug|Win32
+		{96E96497-B7DE-41B0-9BDF-EE57B3B4D297}.Debug|x86.Build.0 = Debug|Win32
+		{96E96497-B7DE-41B0-9BDF-EE57B3B4D297}.Release|x64.ActiveCfg = Release|x64
+		{96E96497-B7DE-41B0-9BDF-EE57B3B4D297}.Release|x64.Build.0 = Release|x64
+		{96E96497-B7DE-41B0-9BDF-EE57B3B4D297}.Release|x86.ActiveCfg = Release|Win32
+		{96E96497-B7DE-41B0-9BDF-EE57B3B4D297}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

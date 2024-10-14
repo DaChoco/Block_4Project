@@ -14,18 +14,19 @@ int main() {
 	//drawing the menu
 	cout << "\nList of available items:	" << endl;
 
-	cout << "Red Apples			R5.99" << endl;
+	cout << "Red Apples			R5" << endl;
 	cout << "Chicken Breasts			R54" << endl;
 	cout << "Hot Chocolate Powder		R92" << endl;
-	cout << "Still Water		R25" << endl;
-	cout << "Lays Chips		R22" << endl;
+	cout << "Still Water			R25" << endl;
+	cout << "Lays Chips			R22" << endl;
 	cout << "Red Grapes			R29" << endl;
 	cout << "Beef Rump Steak	R118" << endl;
 
 	//done drawing the menu
 
-	cout << "How many of each item do you want?: ";
+	cout << "\nHow many of each item do you want?: ";
 	cin >> numItems;
+	cout << endl;
 	//open the text file
 	ofstream TFile; //open file
 	TFile.open("itemslist.txt");
@@ -73,7 +74,7 @@ int main() {
 				cart = cart + itemPrice;
 				TFile << itemName + "(x" + to_string(quantity) + ")		" + "R" + to_string(itemPrice) << endl;
 			}
-			else if (itemName == "Beef Rump Steak" || itemName == "red grapes") {
+			else if (itemName == "Beef Rump Steak" || itemName == "beef rump steak") {
 				itemPrice = 118 * quantity;
 				cart = cart + itemPrice;
 				TFile << itemName + "(x" + to_string(quantity) + ")		" + "R" + to_string(itemPrice) << endl;
