@@ -1,9 +1,8 @@
 #include <iostream>
 #include <string>
-
-using namespace std;
-
 int arrScores[5] = { 0, 0, 0, 0, 0 }; // a)
+
+//function average scores
 
 float average() {
 	float sum = 0;
@@ -15,6 +14,7 @@ float average() {
 	return sum/5;
 }
 
+//function find and return largest number
 int highest() {
 	int largest = arrScores[0];
 	
@@ -26,6 +26,7 @@ int highest() {
 	return largest;
 }
 
+//function find and return lowest number
 int lowest() {
 	int smallest = arrScores[0];
 	for (int i = 0; i <= 4; i++) {
@@ -38,26 +39,26 @@ int lowest() {
 
 int main() {
 
-	cout << "Enter the scores of 5 students:\n" << endl;
+	std::cout << "Enter the scores of 5 students:\n" << std::endl;
 
 	for (int i = 0; i <= 4; i++) { // entering the scores
-		cout << "Enter the score of student " + to_string(i+1) + ":";
-		cin >> arrScores[i];
+		std::cout << "Enter the score of student " + std::to_string(i+1) + ": ";
+		std::cin >> arrScores[i];
 
 
 	}
-	cout << endl;
+	std::cout << std::endl;
 
 	for (int i = 0; i <= 4; i++) { // entering the scores
-		cout << "Student " + to_string(i + 1) + ": " + to_string(arrScores[i]) << endl;
+		std::cout << "Student " + std::to_string(i + 1) + ": " + std::to_string(arrScores[i]) << std::endl;
 	}
-	cout << endl;
+	std::cout << std::endl;
 
 	
 	
-	cout << "Average Score: " + to_string(average()) << endl; // average
-	cout << "Highest Score: " + to_string(highest()) << endl; // largest
-	cout << "Lowest Score: "  + to_string(lowest()) << endl; // lowest
+	std::cout << "Average Score: " + std::to_string(average()) << std::endl; // average
+	std::cout << "Highest Score: " + std::to_string(highest()) << std::endl; // largest
+	std::cout << "Lowest Score: "  + std::to_string(lowest()) << std::endl; // lowest
 
 	return 0;
 }
