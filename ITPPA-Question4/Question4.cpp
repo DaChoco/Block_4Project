@@ -3,7 +3,7 @@
 
 using namespace std;
 
-void createAccount(string &name,int &accountNumber, double &balance) { //Question 4.1.1
+void createAccount(string &name,int &accountNumber, double &balance) { //Question 4.1.1 (Udacity Team, 2024)
 	cout << "Hello user, can you please type your full name: ";
 	getline(cin >> ws, name);
 	cout << endl;
@@ -66,7 +66,7 @@ void drawMenu() {
 int main() {
 	int choice = 0;
 
-	string name = "";
+	string name = ""; //(W3Schools, 2024)
 	int accountNumber = 0;
 	double balance = 0;
 
@@ -95,7 +95,6 @@ int main() {
 		}
 		
 	}
-
 	cout << "\nExiting this system, goodbye kind individual";
 	return 0;
 }

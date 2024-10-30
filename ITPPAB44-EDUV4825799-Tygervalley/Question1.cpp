@@ -123,7 +123,7 @@ int main() {
 	selection();
 	
 	//open our input file
-	ofstream OutFile; 
+	ofstream OutFile;  //(Cplusplus, n.d)
 	OutFile.open("cafeteriabill.txt");
 
 
@@ -137,7 +137,7 @@ int main() {
 	}
 
 	else {
-		perror("File opening failed");
+		perror("File opening failed"); //(IBM I 7.3, n.d.)
 		cout << "Therefore, there were issues opening a file.\n " << endl;
 	}
 	

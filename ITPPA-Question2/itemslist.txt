@@ -1,4 +1,7 @@
-Maile
+Maile Chokoe
+red apples(x3)		R15
+still water(x3)		R75
+red grapes(x3)		R87
 -------------------------------
 
-Total Bill: 0
+Total Bill: 177
